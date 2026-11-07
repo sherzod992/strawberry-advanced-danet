@@ -1,0 +1,37 @@
+{
+  "_comment": "Copy to data/raw/source_mapping.json and edit paths after downloading public sources.",
+  "sources": [
+    {
+      "name": "afzaal_strawberry_disease",
+      "root": "data/raw/sources/afzaal",
+      "class_map": {
+        "Angular Leafspot": "angular_leafspot",
+        "Anthracnose Fruit Rot": "anthracnose_fruit_rot",
+        "Blossom Blight": "blossom_blight",
+        "Gray Mold": "gray_mold",
+        "Leaf Spot": "leaf_spot",
+        "Powdery Mildew Leaf": "powdery_mildew_leaf",
+        "Powdery Mildew Fruit": "powdery_mildew_fruit"
+      }
+    },
+    {
+      "name": "plantvillage_healthy",
+      "root": "data/raw/sources/plantvillage",
+      "class_map": {
+        "Strawberry___healthy": "healthy"
+      }
+    },
+    {
+      "name": "ip102_pest_proxies",
+      "root": "data/raw/sources/ip102",
+      "class_map": {
+        "aphid": "pest_aphid",
+        "armyworm": "pest_armyworm",
+        "thrips": "pest_thrips",
+        "whitefly": "pest_whitefly",
+        "spider_mite": "pest_spider_mite",
+        "plant_bug": "pest_plant_bug"
+      }
+    }
+  ]
+}

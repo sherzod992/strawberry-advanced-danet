@@ -1,0 +1,21 @@
+{
+  "dataset": "strawberry_open_v13",
+  "total_images": 4472,
+  "split_ratio_note": "Paper-fixed per-class counts (README Table 3). Use --mode exact with pooled class folders.",
+  "classes": {
+    "pest_armyworm": {"train": 141, "val": 24, "test": 41, "total": 206},
+    "pest_thrips": {"train": 33, "val": 5, "test": 9, "total": 47},
+    "pest_aphid": {"train": 596, "val": 105, "test": 175, "total": 876},
+    "pest_plant_bug": {"train": 237, "val": 41, "test": 70, "total": 348},
+    "pest_spider_mite": {"train": 109, "val": 19, "test": 32, "total": 160},
+    "pest_whitefly": {"train": 72, "val": 12, "test": 21, "total": 105},
+    "anthracnose_fruit_rot": {"train": 52, "val": 12, "test": 33, "total": 97},
+    "gray_mold": {"train": 255, "val": 77, "test": 145, "total": 477},
+    "angular_leafspot": {"train": 245, "val": 43, "test": 147, "total": 435},
+    "blossom_blight": {"train": 117, "val": 29, "test": 62, "total": 208},
+    "leaf_spot": {"train": 382, "val": 71, "test": 162, "total": 615},
+    "powdery_mildew_leaf": {"train": 319, "val": 63, "test": 151, "total": 533},
+    "powdery_mildew_fruit": {"train": 80, "val": 12, "test": 43, "total": 135},
+    "healthy": {"train": 180, "val": 25, "test": 25, "total": 230}
+  }
+}

@@ -1,0 +1,27 @@
+# Python 캐시 및 가상환경
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 데이터셋 및 대용량 압축 파일 (GitHub 용량 초과 방지)
+data/
+*.zip
+*.tar.gz
+
+# 학습된 모델 가중치 체크포인트 (136.4MB FP32 / 34.2MB INT8 등)
+*.pt
+*.pth
+*.onnx
+*.tflite
+results/*.pt
+results/quantized/*.pt
+
+# OS 및 에디터 설정 파일
+.DS_Store
+.vscode/
+.idea/
+*.swp

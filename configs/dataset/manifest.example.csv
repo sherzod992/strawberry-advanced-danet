@@ -1,0 +1,4 @@
+path,class,split
+sources/afzaal/Angular_Leafspot/img_0001.jpg,angular_leafspot,train
+sources/afzaal/Angular_Leafspot/img_0002.jpg,angular_leafspot,val
+sources/plantvillage/Strawberry___healthy/leaf_001.jpg,healthy,test
